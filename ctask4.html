@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      /* Style for the square blocks */
+      .square-container {
+        display: flex;
+        align-items: center;
+      }
+
+      .square {
+        width: 60px;
+        height: 70px;
+        margin-right: 10px;
+        transition: background-color 0.3s, transform 0.3s;
+        border-style: none;
+        border-radius: 10px;
+        margin-left: -20px;
+        margin-bottom: 10px;
+      }
+
+      /* Colors for the square blocks */
+      .green {
+        background-color: green;
+      }
+
+      .blue {
+        background-color: blue;
+      }
+
+      .red {
+        background-color: red;
+      }
+
+      .black {
+        background-color: black;
+      }
+
+      /* Hover effect */
+      .square:hover {
+        transform: scale(1.1); /* Increase size on hover */
+      }
+
+      /* Style for the text */
+      .text {
+        color: white;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Square Blocks with Text -->
+    <div class="square-container">
+      <div class="square green"></div>
+      <div class="text">Sidebar Nav Button</div>
+    </div>
+    <div class="square-container">
+      <div class="square blue"></div>
+      <div class="text">Sidebar Nav Button</div>
+    </div>
+    <div class="square-container">
+      <div class="square red"></div>
+      <div class="text">Sidebar Nav Button</div>
+    </div>
+    <div class="square-container">
+      <div class="square black"></div>
+      <div class="text">Sidebar Nav Button</div>
+    </div>
+  </body>
+</html>
